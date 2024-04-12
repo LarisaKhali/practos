@@ -1,0 +1,23 @@
+{
+    "name": "larisakhali/practos",
+    "description": "pupupipi",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "larisakhali",
+            "email": "larica290501@mail.ru"
+        }
+    ],
+
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "core/Src/",
+            "": "app/"
+        }
+    }
+}
